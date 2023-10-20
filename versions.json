@@ -1,0 +1,31 @@
+{
+  "2003" : {
+    "nixpkgs" : "06ce0d954b659c60221ee1dda5270a083e52e681",
+    "NixOS-QChem" : "5edf6f242cf6b231d0ffdacd706566a097a561cc"
+  },
+  "2009" : {
+    "nixpkgs" : "47e580e291ff40bbde191e9fed35128727963b0c",
+    "NixOS-QChem" : "674a3fb18907f1d87784ccb84dcb835d450131f0"
+  },
+  "2105" : {
+    "nixpkgs" : "b2f87e0043aaf3f0f05cc983bd6aa80a616b8352",
+    "NixOS-QChem" : "8bf1cc078ae159a35fee0b7a90c40049c2bab847"
+  },
+  "2111" : {
+    "nixpkgs" : "c78fc23f108b9a3bea9bf8693d2943ee0269c804",
+    "NixOS-QChem" : "b3db475ba92dcdd6443f9f66a377906289152fc7"
+  },
+  "2205" : {
+    "nixpkgs" : "c06d5fa9c605d143b15cafdbbb61c7c95388d76e",
+    "NixOS-QChem" : "3efcaf036aaafe51cf0d6dbc55cc30c814129079"
+  },
+  "2211" : {
+    "nixpkgs" : "0bf3109eeb61780965c27f4a0a4affdcd0cd4d3d",
+    "NixOS-QChem" : "0717d234bfdb09a38d560a3ce662b9f931796b3f"
+  },
+  "2305" : {
+    "nixpkgs" : "8d447c5626cfefb9b129d5b30103344377fe09bc",
+    "NixOS-QChem" : "6604be6a2375430fddb6995ac809d291e57d0570"
+  }
+}
+
