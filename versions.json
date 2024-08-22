@@ -30,6 +30,10 @@
   "2311" : {
     "nixpkgs" : "32f63574c85fbc80e4ba1fbb932cde9619bad25e",
     "NixOS-QChem" : "0bbfe8a5c936861b3e14ce4217f6dae46760859c"
+  },
+  "2405" : {
+    "nixpkgs" : "224042e9a3039291f22f4f2ded12af95a616cca0",
+    "NixOS-QChem" : "7f72405c14870a04c36b5dbda7bde8fee9bd9ccc"
   }
 }
 
