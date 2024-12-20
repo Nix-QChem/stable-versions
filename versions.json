@@ -36,8 +36,8 @@
     "NixOS-QChem" : "34d786f56b08854737123e8732ec6f244e8d0023"
   },
   "2411" : {
-    "nixpkgs" : "394571358ce82dff7411395829aa6a3aad45b907",
-    "NixOS-QChem" : "34f8c2142e5bd47b0e91ccbedc7a5d64830d78d2"
+    "nixpkgs" : "b47fd6fa00c6afca88b8ee46cfdb00e104f50bca",
+    "NixOS-QChem" : "941b827a4c972f02399979e1bf87a989e09df60e"
   }
 }
 
