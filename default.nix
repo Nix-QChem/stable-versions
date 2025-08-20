@@ -14,7 +14,7 @@ let
     last
   ;
 
-  channels = pkgs.callPackages ./github-sources.nix {};
+  channels = pkgs.callPackage ./github-sources.nix {};
 
   # Assemble nixpkgs + overlay
   buildPkgs = c:
