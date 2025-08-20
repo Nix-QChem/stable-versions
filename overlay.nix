@@ -5,4 +5,4 @@
 
 self: super:
 
-import ./default.nix { inherit (super) lib; }
+import ./default.nix { inherit super; }

@@ -1,0 +1,102 @@
+{
+  "2003": {
+    "nixpkgs": {
+      "rev": "06ce0d954b659c60221ee1dda5270a083e52e681",
+      "hash": "sha256-xSnGR1B9qw4ZLE1YfT2XY8ZuvLVeVES62f1kWXSuWjI="
+    },
+    "NixOS-QChem": {
+      "rev": "5edf6f242cf6b231d0ffdacd706566a097a561cc",
+      "hash": "sha256-o1HKAFgWOKDR7ypFSIElEe6v7kBBy3j06Qr6m9Tv9Fo="
+    }
+  },
+  "2009": {
+    "nixpkgs": {
+      "rev": "47e580e291ff40bbde191e9fed35128727963b0c",
+      "hash": "sha256-SDvBKMlTtRoMjNrfOMMO+7VNRW7AomvOt1uZK7gg37o="
+    },
+    "NixOS-QChem": {
+      "rev": "674a3fb18907f1d87784ccb84dcb835d450131f0",
+      "hash": "sha256-cYD48aaj7A0s242zQrrcS2/ehj4bkvHlFJmc42NuwQk="
+    }
+  },
+  "2105": {
+    "nixpkgs": {
+      "rev": "b2f87e0043aaf3f0f05cc983bd6aa80a616b8352",
+      "hash": "sha256-WcQDF/JB3yWfO7E37M6rlUCKkqcMwG2UiWz+2Vsib9Y="
+    },
+    "NixOS-QChem": {
+      "rev": "8bf1cc078ae159a35fee0b7a90c40049c2bab847",
+      "hash": "sha256-x9JMeUe+GxYnF2ilK8jStdQM3pJ2nLyEOa0XT6lX3Xg="
+    }
+  },
+  "2111": {
+    "nixpkgs": {
+      "rev": "c78fc23f108b9a3bea9bf8693d2943ee0269c804",
+      "hash": "sha256-bfV62gYQGYjb/Gvw6MdMuEvWCcC838mI1Dzi1efjqTA="
+    },
+    "NixOS-QChem": {
+      "rev": "b3db475ba92dcdd6443f9f66a377906289152fc7",
+      "hash": "sha256-c7LN+CAM+eGcQ34rmT5y8fZQfCrHSJygvGIAJO0m8gA="
+    }
+  },
+  "2205": {
+    "nixpkgs": {
+      "rev": "c06d5fa9c605d143b15cafdbbb61c7c95388d76e",
+      "hash": "sha256-+5Jby1ayRjtSgsM5IpRNeUgdcIutCKQWR6sypRtd1RE="
+    },
+    "NixOS-QChem": {
+      "rev": "3efcaf036aaafe51cf0d6dbc55cc30c814129079",
+      "hash": "sha256-52GxufcofK+CjIJSoWufmUkI1RpEWJweauW2AD7KEbM="
+    }
+  },
+  "2211": {
+    "nixpkgs": {
+      "rev": "0bf3109eeb61780965c27f4a0a4affdcd0cd4d3d",
+      "hash": "sha256-e18rRwDUaW/Uw1tBmtsVueJ2SVI5DLhrEGwhkIo+c50="
+    },
+    "NixOS-QChem": {
+      "rev": "eba64e14b0b14150958327b121563d023590f8ae",
+      "hash": "sha256-AaA8T+W8rE1cxQKEv2uvt3+3w7h+6L4j6oJ92/2a3ww="
+    }
+  },
+  "2305": {
+    "nixpkgs": {
+      "rev": "5550a85a087c04ddcace7f892b0bdc9d8bb080c8",
+      "hash": "sha256-lJ8k4qkkwdvi+t/Xc6Fn74kUuobpu9ynPGxNZR6OwoA="
+    },
+    "NixOS-QChem": {
+      "rev": "f803c2221438d61296da08d54b4be184e60697b5",
+      "hash": "sha256-31/lAl0vupN0pXl5wu2UmKz7ddV7tpHOsC2dYii8g9g="
+    }
+  },
+  "2311": {
+    "nixpkgs": {
+      "rev": "32f63574c85fbc80e4ba1fbb932cde9619bad25e",
+      "hash": "sha256-C0o8AUyu8xYgJ36kOxJfXIroy9if/G6aJbNOpA5W0+M="
+    },
+    "NixOS-QChem": {
+      "rev": "0bbfe8a5c936861b3e14ce4217f6dae46760859c",
+      "hash": "sha256-lO4jZeftNUN+DEgWs/y69IMAzCUT7joxKih92Iu59fs="
+    }
+  },
+  "2405": {
+    "nixpkgs": {
+      "rev": "224042e9a3039291f22f4f2ded12af95a616cca0",
+      "hash": "sha256-HMpK7hNjhEk4z5SFg5UtxEio9OWFocHdaQzCfW1pE7w="
+    },
+    "NixOS-QChem": {
+      "rev": "34d786f56b08854737123e8732ec6f244e8d0023",
+      "hash": "sha256-Uoqvo2yMEh6dUyfJ5wkXa4TSNtOauOuuRAdpAQ1LO6I="
+    }
+  },
+  "2411": {
+    "nixpkgs": {
+      "rev": "030ba1976b7c0e1a67d9716b17308ccdab5b381e",
+      "hash": "sha256-nJj8f78AYAxl/zqLiFGXn5Im1qjFKU8yBPKoWEeZN5M="
+    },
+    "NixOS-QChem": {
+      "rev": "c2e995ff3f90bc59bd0a8d84e5f33dd643ac0548",
+      "hash": "sha256-y8PzP1llxOHCZgZuaImcaaL8pQPKHG31/YqORLTaYYc="
+    }
+  }
+}

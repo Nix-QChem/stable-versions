@@ -1,36 +1,51 @@
-{ lib ? (import <nixpkgs> {}).lib
-, config ? {}
+{
+  pkgs ? import <nixpkgs> {},
+  system ? builtins.currentSystem,
+  config ? {},
 }:
 
 let
-  inherit (lib) mapAttrs' nameValuePair;
 
-  v = import ./versions.nix;
+  inherit (pkgs.lib)
+    mapAttrs'
+    nameValuePair
+    toInt
+    attrsToList
+    last
+  ;
 
-  # assemble nixpkgs + overlay
-  buildPkgs = ver: v.getNixpkgs ver {
-    inherit config;
-    overlays = [ (v.getNixOS-QChem ver) ];
-  };
+  channels = pkgs.callPackages ./github-sources.nix {};
+
+  # Assemble nixpkgs + overlay
+  buildPkgs = c:
+    # 21.05 and older needs to be pinned manually
+    if (toInt c.version <= 2105) then
+      (import c.nixpkgs {
+        inherit system;
+        overlays = [ (import c.NixOS-QChem) ];
+        inherit config;
+      })
+      else
+      (import c.nixpkgs {
+        inherit system;
+        overlays = [ (import c.NixOS-QChem) ];
+        inherit config;
+      })
+   ;
 
   # extract qchem subset (no subset for 20.03 and 20.09)
-  getQchem = version:
-    let
-      pkgs = buildPkgs version;
-    in
-      if pkgs ? qchem then pkgs.qchem
-      else pkgs;
+  getQchem = p:  if p ? qchem then p.qchem else p;
 
-  # create all versions as qchem-XXYY sets
-  sets = mapAttrs' (version: _:
-    nameValuePair
-      ("qchem-${version}")
-      (getQchem version)
-  ) v.sha;
+  sets = mapAttrs' (name: channel:
+  nameValuePair "${name}"
+  (let
+     pkgs = buildPkgs channel;
+   in getQchem pkgs)
+  ) channels;
 
 in
-  sets //
-  {
-    # latest stable as a static named subset
-    "qchem-stable" = getQchem v.stable;
-  }
+sets //
+{
+  qchem-stable = (last (attrsToList sets)).value;
+}
+
