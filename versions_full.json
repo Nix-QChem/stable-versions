@@ -98,5 +98,15 @@
       "rev": "c2e995ff3f90bc59bd0a8d84e5f33dd643ac0548",
       "hash": "sha256-y8PzP1llxOHCZgZuaImcaaL8pQPKHG31/YqORLTaYYc="
     }
+  },
+  "2505": {
+    "nixpkgs": {
+      "rev": "9cb344e96d5b6918e94e1bca2d9f3ea1e9615545",
+      "hash": "sha256-gKlP0LbyJ3qX0KObfIWcp5nbuHSb5EHwIvU6UcNBg2A="
+    },
+    "NixOS-QChem": {
+      "rev": "c1c3baccd9b93f422a94a690943cbe6eb22a85cf",
+      "hash": "sha256-To2HRUUYcuIU9Iix6PiM+bUukDXPYMXfqJThMiWAbHM="
+    }
   }
 }
