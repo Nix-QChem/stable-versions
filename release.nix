@@ -7,16 +7,15 @@ let
   pkgs = import nixpkgs {};
 
   inherit (pkgs.lib)
-    mapAttrs'
-    nameValuePair
-    toInt
-    attrsToList
+    isDerivation
     filterAttrs
-    last
+    mapAttrs
   ;
 
   sources = pkgs.callPackages ./github-sources.nix {};
 
 in
-sources
+mapAttrs (_: releases:
+    filterAttrs (_: v: isDerivation v) releases
+ ) sources
 
